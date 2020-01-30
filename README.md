@@ -47,10 +47,10 @@ Run the MainActivity.java file after all files are compiled.
 Hashtable doesn't allow any null keys or values while Hashmap allows one null key and multiple null values.**
 
 2. Why should you generally override the equals and hashCode methods?
-	**you must override hashCode in every class that overrides equals() because it will result in a violation of the general contract for Object.hashCode(), which will prevent the class from functioning properly with hash based collections such as Hashmap, HashSet and HashTable.**
+	**If equals() or hashCode() methods are not overridden, the class will not behave properly, because hash based collections are organized using hash codes to determine where the objects reside in memory**
 
 3. How does a factory design pattern work?
-	**Factory method is a creational design pattern. It creates an object without exposing the creation logic to client and the client use the same common interface to create a new type of object**
+	**Factory methods allow classes to use subclasses to create objects. Factory methods require new operations to make objects, but not new classes.**
 
 4. How does Java Garbage Collection Work?
 	**Java garbage collection is the process which Java performs automatated memory management. Java programs compile to bytecode that can be run on a JVM. This creates objects on the heap. When objects are no longer needed, these objects are marked to be deleted, then the garbage collector finds these objects and deletes them to free up memory.**
