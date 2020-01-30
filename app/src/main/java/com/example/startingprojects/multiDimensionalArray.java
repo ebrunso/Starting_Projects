@@ -10,9 +10,9 @@ public class multiDimensionalArray {
     //    ...
     // public void printTables(){};
     public static void multiplicationTable(){
-        int[][] product = new int[10][10];
-        for(int i = 1; i <= 10; i++){
-            for(int k = 1; k <= 10; k++){
+        int[][] product = new int[11][11];
+        for(int i = 1; i < 11; i++){
+            for(int k = 1; k < 11; k++){
                 product[i][k] = i * k;
                 System.out.print("\t" +product[i][k]);
             }

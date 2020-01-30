@@ -8,17 +8,16 @@ public class isitaPalindrome {
         String backwardsString = "";
 
         // flip the string and save it to another string
-        for(int i = 0; i <= word.length(); i++){
+        for(int i = 0; i < word.length(); i++){
             backwardsString = word.charAt(i) + backwardsString;
-
         }
 
+        System.out.println(word);
+        System.out.println(backwardsString);
         // is it a palindrome?
-        if (backwardsString == word){
+        if (backwardsString.equals(word)){
             return true;
-        } else {
-            return false;
         }
-
+        return false;
     }
 }
