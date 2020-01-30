@@ -43,8 +43,8 @@ Run the MainActivity.java file after all files are compiled.
 
 **Research**
 1. What is the difference in a hash map versus a hash table?
-	**Hashmap is not synchronized. It is not thread-safe and can be shared with many threads.
-Hashmap allows one null key and multiple null values while Hashtable doesn't allow any null keys or values.**
+	**Hashmap isn't thread-safe or synchronized, so it can be shared with many threads.
+Hashtable doesn't allow any null keys or values while Hashmap allows one null key and multiple null values.**
 
 2. Why should you generally override the equals and hashCode methods?
 	**you must override hashCode in every class that overrides equals() because it will result in a violation of the general contract for Object.hashCode(), which will prevent the class from functioning properly with hash based collections such as Hashmap, HashSet and HashTable.**
