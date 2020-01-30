@@ -39,7 +39,7 @@ fizzBuzz.java, isitaPalindrome.java, animalDuplicates.java
  public void printTables(){};
 **method in multiDimensionalArray.java**
 
-#Research
+**Research**
 1. What is the difference in a hash map versus a hash table?
 	**Hashmap is not synchronized. It is not thread-safe and can be shared with many threads.
 Hashmap allows one hull key and multiple null values while Hashtable doesn't allow any null keys or values.**
