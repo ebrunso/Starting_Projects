@@ -8,6 +8,7 @@ The changed files are:
 MainActivity.java, multiDimensionalArray.java, checkAnagram.java, 
 fizzBuzz.java, isitaPalindrome.java, animalDuplicates.java
 
+Run the MainActivity.java file after all files are compiled.
 
 1. Create a function to print the duplicates in a list of strings
    public void findDuplicates(List<String> strings){};
